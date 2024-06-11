@@ -1,0 +1,143 @@
+.Login-Container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login-wrapper form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.Login-button {
+  background-color: #3e38f5;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 13px 0;
+  border-radius: 7px;
+}
+
+.Login-wrapper form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #c3c6d4;
+  border-radius: 7px;
+  margin-top: 6px;
+}
+
+.Login-other {
+  margin-top: 10px;
+  width: 350px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.Login-other p {
+  color: #98989f;
+}
+
+.Login-other p:nth-child(2) {
+  color: blue;
+  cursor: pointer;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+.message h2 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #010105;
+}
+
+.message p {
+  margin-top: 5px;
+  font-size: 17px;
+  color: rgb(116, 110, 110);
+}
+
+.password-container {
+  position: relative;
+}
+
+#Password-Input {
+  width: 100%;
+  padding-right: 40px;
+  /* position: relative; */
+}
+
+.toggle-password-btn {
+  position: absolute;
+  right: 13px;
+  top: 45%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #000;
+  background: none;
+}
+
+.toggle-password-btn:focus {
+  outline: none;
+}
+
+.Google-icon {
+  font-size: 20px;
+}
+
+.Google-button {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #c3c6d4c4;
+  border-radius: 7px;
+}
+
+.seprate-text {
+  color: #b6b8cb;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.seprate-text::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  height: 1px;
+  width: 70px;
+  background: #b6b8cb;
+  left: 5%;
+  z-index: 1;
+}
+
+.seprate-text::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  height: 1px;
+  width: 70px;
+  background: #b6b8cb;
+  right: 5%;
+  z-index: 1;
+}
